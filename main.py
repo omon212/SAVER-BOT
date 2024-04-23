@@ -9,8 +9,6 @@ from aiogram.filters.command import Command
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-
-
 bot = Bot(token=config.bot_token.get_secret_value())
 dp = Dispatcher()
 
